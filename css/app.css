@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+p {
+  margin-top: -3px;
+}
+
+.logo {
+  max-width: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+h6 {
+  text-transform: uppercase;
+  color: #A0A0A0;
+}
+
+.row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
